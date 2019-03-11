@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SPA 项目</title>
+    <script src="jquery 引入包/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="SPAcss/css.css">
+    <link rel="stylesheet" href="SPAcss/2css.css">
+    <link rel="stylesheet" href="SPAcss/footercss.css">
+    <style>
+        @font-face {
+            src:url("字体/Adorabelle slant.ttf")
+            ,url('字体/Adorabelle.ttf');
+            font-family: haha;
+        }
+        .header-wrap, .a {
+            min-height: 260px;
+        }
+    </style>
+</head>
+<body>
+<div class="header-wrap">
+    <div class="container a">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header">
+                <div class="header-left">
+                    <a href="#">
+                        <i class="glyphicon glyphicon-leaf"></i>&nbsp;&nbsp;
+                        <span class="s-siez">Spa</span>
+                        <br>
+                        <span>Magic of soul</span>
+                    </a>
+                </div>
+                <div class="header-middle">
+                    <!--
+                    设置在屏幕小于768px 时显示
+                    menu图标
+                    -->
+                    <span class="menu">
+                        <img src="images/menu.png" alt="">
+                    </span>
+                    <ul class="nav-list">
+                        <li class="list-item">
+                            <a href="Home.html">
+                                <p class="p-before">
+                                    <span>Home</span>
+                                    <br>
+                                    <i class="glyphicon glyphicon-home" aria-hidden="true"></i>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="Services.html">
+                                <p class="p-before">
+                                    <span>Services</span>
+                                    <br>
+                                    <i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="list-item one">
+                            <a href="About.html">
+                                <p class="p-before one">
+                                    <span>About</span>
+                                    <br>
+                                    <i class="glyphicon glyphicon-star-empty" aria-hidden="true"></i>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="Blog.html">
+                                <p class="p-before">
+                                    <span>&nbsp;Blog</span>
+                                    <br>
+                                    <i class="glyphicon glyphicon-picture" aria-hidden="true"></i>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="Contact.html">
+                                <p class="p-before">
+                                    <span>Contact</span>
+                                    <br>
+                                    <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><a href="" class="n"></a></li>
+                        <li><a href="" class="g"></a></li>
+                        <li><a href="" class="v"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="images/about_01.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one hidden-sm hidden-xs">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="images/about_02.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one visible-sm visible-xs">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="images/about_03.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+        </div>
+
+        <!--利用偏移到达一定尺寸自行替换-->
+        <div class="row">
+            <div class="col-lg-8 col-lg-push-4 col-md-8 col-md-push-4 col-sm-12 col-xs-12">
+                <img src="images/about_04.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-4 col-lg-pull-8 col-md-4 col-md-pull-8 col-sm-12 col-xs-12 con-one">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+            <!--显示隐藏的就不需要了-->
+            <!--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one visible-xs">-->
+                <!--<h1>asjdgksafh</h1>-->
+                <!--<p>adsfljasdlfsdafihsadlifsdaflsasodshfa-->
+                    <!--dsofhsadfasdhsdafasdsafadsfsadgadk-->
+                <!--</p>-->
+            <!--</div>-->
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="images/about_05.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 con-one">
+                <h1>asjdgksafh</h1>
+                <p>adsfljasdlfsdafihsadlifsdaflsasodshfa
+                    dsofhsadfasdhsdafasdsafadsfsadgadk
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 ftr">
+                <h3>Navigafion</h3>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-3 ftr">
+                <h3>Members</h3>
+                <ul>
+                    <li><a href="">Customer Support</a></li>
+                    <li><a href="">Platinum Support</a></li>
+                    <li><a href="">Gold Support</a></li>
+                    <li><a href="">Standard Support</a></li>
+                    <li><a href="">Training</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ftr">
+                <h3>Gef In Touch</h3>
+                <ul>
+                    <li>Ola-ola streetjump</li>
+                    <li>260-4 City.Country</li>
+                    <li>+62 000-0000-00</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3 ftr">
+                <a href="" class="footer-a">
+                    <h2>Spa <span>Magic Of Soul</span></h2>
+                </a>
+                <ul class="nav navbar-nav zhong">
+                    <li><a href="" class="n"></a></li>
+                    <li><a href="" class="g"></a></li>
+                    <li><a href="" class="v"></a></li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <p class="ftr-p">Copyright &copy; 2015.Compagny name All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        /*点击头部出来下拉列表*/
+        var isShow = true;
+        $(".menu").click(function () {
+            if (isShow) {
+                $("ul.nav-list").slideDown(300)
+            } else {
+                $("ul.nav-list").slideUp(300)
+            }
+            isShow = !isShow
+        });
+    })
+</script>
+</html>
